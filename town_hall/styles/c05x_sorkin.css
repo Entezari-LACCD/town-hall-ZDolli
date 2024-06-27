@@ -1,59 +1,65 @@
+html {
+    background-color:yellow;
+}
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin:0 auto;
     width: 650px;
-    background-color: yellow;
+    padding: 10px;
+    background-color: white;
     text-align: center;
     border: 10px double blue;
 }
+
 main {
-    padding: 20px;
-    background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: justify;
+    font-size: 110%;
+    padding-left: 5px;
+    padding-right: 15px;
+    padding-bottom: 0;
+    text-align: left;
+}
 
- h1 {
-        font-size: 150%;
-        color: blue;
-        margin: 20px 0;
-       
-    }
-    
- h2 {
-        font-size: 125%;
-        padding-bottom: .1em;
-        margin-top: 5px;
-        margin 18px 0;
-    
-    }
-    p.cite-container { 
-        text-align: right; 
-        margin-bottom: .75em; 
-    }
-    
-    cite {
-        color: #0077cc; 
-        font-style: normal; 
-    }
- h3 {
-        font-size: 115%;
-        margin 15px 0;
+img {
+    float: left; 
+    margin-right: 20px; 
+    padding: 0 5px 5px 0px; 
    
+}
+
+ul, li, blockquote {
+    margin-top: 5px; 
+    margin-left: 0;
+    
+}
+
+cite {
+    color: #0077cc; 
+    font-style: normal; 
+    text-align: right;
+    padding-right: 10px;
+}
 
 
+h1 {
+    font-size: 150%;
+    color: blue;
+    margin: 5px 0 20px 0; 
+}
 
+h2 {
+    font-size: 125%;
+   
 
 }
+h3 {
+    font-size: 115%;
+
+}
+
 footer {
+    font-size: 90%;
+    font-weight: bold;
     border-top: 4px solid blue;
-    text-align: center;
-    padding: 5px;
    
-
-   /*how to make border shorter?? */
-
-
 }
